@@ -1,31 +1,24 @@
 ﻿<Properties StartupConfiguration="{AEEFF9E8-E13F-4D49-855D-F636E203CEAE}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Infrastructure/SessionExtensions.cs">
     <Files>
-      <File FileName="Components/TypesViewComponent.cs" Line="21" Column="38" />
-      <File FileName="Models/ViewModels/ProjectsViewModel.cs" />
-      <File FileName="Views/Shared/Components/Types/Default.cshtml" />
-      <File FileName="Views/Shared/_Layout.cshtml" />
-      <File FileName="Startup.cs" />
-      <File FileName="Views/Home/Index.cshtml" />
-      <File FileName="Views/Shared/ProjectSummary.cshtml" />
-      <File FileName="Infrastructure/PaginationTagHelper.cs" />
-      <File FileName="Controllers/HomeController.cs" />
-      <File FileName="Program.cs" />
-      <File FileName="Pages/_DonateLayout.cshtml" />
-      <File FileName="Pages/Donate.cshtml" Line="6" Column="1" />
-      <File FileName="Infrastructure/SessionExtensions.cs" Line="20" Column="10" />
+      <File FileName="Pages/Donate.cshtml" Line="23" Column="52" />
+      <File FileName="Pages/Donate.cshtml.cs" Line="38" Column="22" />
+      <File FileName="Models/Basket.cs" Line="35" Column="10" />
+      <File FileName="Models/SessionBasket.cs" Line="35" Column="43" />
+      <File FileName="Infrastructure/SessionExtensions.cs" Line="12" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="WaterProject" expanded="True">
             <Node name="WaterProject" expanded="True">
-              <Node name="Components" expanded="True" />
-              <Node name="Controllers" expanded="True" />
               <Node name="Infrastructure" expanded="True">
                 <Node name="SessionExtensions.cs" selected="True" />
               </Node>
-              <Node name="Pages" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="Donate.cshtml" expanded="True" />
+              </Node>
             </Node>
           </Node>
         </State>
