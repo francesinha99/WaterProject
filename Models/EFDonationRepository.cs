@@ -18,7 +18,7 @@ namespace WaterProject.Models
         public void SaveDonation(Donation donation)
         {
             context.AttachRange(donation.Lines.Select(x => x.Project));
-
+            
             if (donation.DonationId == 0)
             {
                 context.Donations.Add(donation);
