@@ -1,20 +1,32 @@
 ﻿<Properties StartupConfiguration="{AEEFF9E8-E13F-4D49-855D-F636E203CEAE}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/Donate.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/Admin/AdminLayout.razor">
     <Files>
-      <File FileName="Pages/Donate.cshtml" Line="51" Column="35" />
+      <File FileName="Pages/Admin/Donations.razor" Line="9" Column="33" />
+      <File FileName="Pages/Admin/DonationTable.razor" Line="11" Column="10" />
+      <File FileName="Pages/Admin/Index.cshtml" Line="17" Column="7" />
+      <File FileName="Pages/Admin/Routed.razor" Line="4" Column="63" />
+      <File FileName="Pages/Admin/AdminLayout.razor" Line="10" Column="24" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="WaterProject" expanded="True">
             <Node name="WaterProject" expanded="True">
-              <Node name="Controllers" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="Pages" expanded="True">
-                <Node name="Donate.cshtml" expanded="True" selected="True" />
+                <Node name="Admin" expanded="True">
+                  <Node name="AdminLayout.razor" selected="True" />
+                </Node>
               </Node>
               <Node name="Views" expanded="True">
                 <Node name="Donation" expanded="True" />
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="lib" expanded="True">
+                  <Node name="css" expanded="True" />
+                </Node>
               </Node>
             </Node>
           </Node>

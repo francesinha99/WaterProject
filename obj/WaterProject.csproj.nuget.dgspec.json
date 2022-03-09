@@ -14,7 +14,7 @@
         "outputPath": "/Users/michaelpiscione/Projects/WaterProject/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/michaelpiscione/.config/NuGet/NuGet.Config"
+          "/Users/michaelpiscione/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
