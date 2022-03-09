@@ -53,9 +53,8 @@ using WaterProject.Models;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/admin/projects")]
-    [Microsoft.AspNetCore.Components.RouteAttribute("/admin")]
-    public partial class Projects : OwningComponentBase<IWaterProjectRepository>
+    [Microsoft.AspNetCore.Components.RouteAttribute("/admin/projects/details/{id:long}")]
+    public partial class Details : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -63,32 +62,23 @@ using WaterProject.Models;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 55 "/Users/michaelpiscione/Projects/WaterProject/Pages/Admin/Projects.razor"
+#line 24 "/Users/michaelpiscione/Projects/WaterProject/Pages/Admin/Details.razor"
        
 
-    public IWaterProjectRepository repo => Service;
+    [Inject]
+    public IWaterProjectRepository repo { get; set; }
 
-    public IEnumerable<Project> ProjectData { get; set; }
+    [Parameter]
+    public long Id { get; set; }
 
-    protected async override Task OnInitializedAsync()
+    public Project p {get; set;}
+
+    protected override void OnParametersSet()
     {
-        await UpdateData();
+        p = repo.Projects.FirstOrDefault(x => x.ProjectId == Id);
     }
 
-    public async Task  UpdateData()
-    {
-        ProjectData = await repo.Projects.ToListAsync();
-    }
-
-
-
-    public string GetDetailsUrl(long id) => $"/admin/projects/details/{id}";
-    public string GetEditUrl(long id) => $"/admin/projects/edit/{id}";
-    public async Task RemoveProject (Project p)
-    {
-        repo.DeleteProject(p);
-        await UpdateData();
-    }
+    public string EditUrl => $"/admin/projects/edit/{p.ProjectId}";
 
 
 #line default
