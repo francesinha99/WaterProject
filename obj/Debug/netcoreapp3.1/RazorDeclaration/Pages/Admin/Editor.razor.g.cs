@@ -95,7 +95,7 @@ using WaterProject.Models;
             repo.SaveProject(p);
         }
 
-        NavManager.NavigateTo("/admin/projects");
+        NavManager.NavigateTo("/admin/projects", true);
     }
 
     [Inject]
