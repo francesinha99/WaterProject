@@ -1,22 +1,21 @@
 ﻿<Properties StartupConfiguration="{AEEFF9E8-E13F-4D49-855D-F636E203CEAE}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Pages/Admin/AdminLayout.razor">
     <Files>
-      <File FileName="Pages/Admin/Editor.razor" Line="69" Column="1" />
-      <File FileName="Startup.cs" Line="93" Column="17" />
-      <File FileName="Pages/Admin/Index.cshtml" Line="24" Column="8" />
-      <File FileName="Pages/Admin/Routed.razor" Line="1" Column="1" />
-      <File FileName="Pages/Admin/_Imports.razor" Line="1" Column="1" />
-      <File FileName="Pages/Admin/AdminLayout.razor" Line="1" Column="1" />
+      <File FileName="Pages/Admin/AdminLayout.razor" Line="20" Column="15" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="WaterProject" expanded="True">
             <Node name="WaterProject" expanded="True">
+              <Node name="Controllers" expanded="True" />
               <Node name="Pages" expanded="True">
                 <Node name="Admin" expanded="True">
                   <Node name="AdminLayout.razor" selected="True" />
                 </Node>
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Account" expanded="True" />
               </Node>
             </Node>
           </Node>

@@ -99,3 +99,9 @@
 /Users/michaelpiscione/Projects/WaterProject/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Details.razor.g.cs
 /Users/michaelpiscione/Projects/WaterProject/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Admin/Editor.razor.g.cs
 /Users/michaelpiscione/Projects/WaterProject/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Editor.razor.g.cs
+/Users/michaelpiscione/Projects/WaterProject/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Users/michaelpiscione/Projects/WaterProject/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Users/michaelpiscione/Projects/WaterProject/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/michaelpiscione/Projects/WaterProject/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Identity.Core.dll
+/Users/michaelpiscione/Projects/WaterProject/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Identity.Stores.dll
+/Users/michaelpiscione/Projects/WaterProject/obj/Debug/netcoreapp3.1/Razor/Views/Account/Login.cshtml.g.cs
